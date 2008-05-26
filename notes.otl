@@ -1,0 +1,51 @@
+[_] 0% 56x13 Entropy Oscillator
+	: Flip-Disc, Flip-Dot
+	:
+	: Split Flap is similar, but with full characters
+	:
+	: http://www.fpelectronics.com
+	: Mark IV F-P Electronics Services
+	: 6020 Ambler Drive, Mississauga, Ontario, Canada, L4W 2P1
+	: Tel: (905)624-3020 Fax: (905)238-5053
+	:
+	: F-P Displays Inc.
+	: 456 Glenbrook Road, Stamford, CT 06906
+	: Tel: (203)964-8360 Fax: (203)325-8150 
+	:
+	: ask about XY5 Displays
+	:
+	:
+	: http://www.lumivision.info/links.html <- big list of flip-dot display
+	: makers
+	:
+	: http://www.scoretronics.com
+	:
+	: http://www.mckennabrothers.co.uk <- sell 10mm flipdot using bus signs
+	:
+	: http://www.indicators-int.com/ <- seem to sell 10mm flipdots to others
+	:
+	[_] 0% Todo
+	[_] 0% Features
+		[_] 0% Hardware
+			Overview
+				: 12*60 = 720 minutes/half-day
+				:
+				: 56*13 = 728
+				:
+				: However the modules we're using have 7 bits each, and 56 / 7
+				: = 8
+				:
+				: 56 * 13 also has a nice wide and narrow aspect ratio. The
+				: extra 8 bits can be dealt with by simply flipping two bits
+				: at a time, 8 times during the 12 hours.
+			[_] 0% Mechanics
+				[_] % Modules
+					: 8 modules of dimensions 7x13 form the screen.
+					:
+					: The modules have mounting hardware on the top and
+					: bottom, the sides are left flush so they can be placed
+					: with no gaps.
+			[_] 0% Electronics
+				[_] % Modules
+		[_] 0% Software
+		[_] 0% Firmware
