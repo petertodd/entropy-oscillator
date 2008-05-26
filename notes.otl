@@ -39,13 +39,44 @@
 				: extra 8 bits can be dealt with by simply flipping two bits
 				: at a time, 8 times during the 12 hours.
 			[_] 0% Mechanics
-				[_] % Modules
-					: 8 modules of dimensions 7x13 form the screen.
+				: The flip dot displays are about 10mm square, on what seems
+				: to be a metric pin grid.
+				:
+				: A 1/4" of clearance vertically above the flip dots would be
+				: good to give the rotating dot clearance to move.
+				:
+				: They are rather fragile, due to the wires, and must be
+				: protected. on all sides.
+				[_] 0% Modules
+					: 8 modules of dimensions 7x13, form the screen.
 					:
 					: The modules have mounting hardware on the top and
 					: bottom, the sides are left flush so they can be placed
 					: with no gaps.
+					:
+					: Modules would then have a second, lower level, with the
+					: driver hardware. KK-100 connectors would go from one to
+					: the other, leaving room in the upper to solder the wires
+					: to it.
+			[_] 0% Enclosure
+				: Basically a big acrylic box would work fine. Need to include
+				: standoffs for mounting two layers of circuit boards. 
+				[_] 0% User interface
+					[_] Buttons
+					[_] LED display
 			[_] 0% Electronics
-				[_] % Modules
+				[_] 0% Power
+					: Battery powered as an option would be very good.
+				[_] 0% Modules
 		[_] 0% Software
 		[_] 0% Firmware
+			[_] 0% Modes
+				[_] Fast for Demo
+					: Faster, for demonstration purposes.
+				[_] Minute Per Flip
+			[_] 0% Internal Metrics
+				[_] Hours Meter
+					: Hours recorded seperately for *both* modes! 
+				[_] Flip Meter
+					: Record each individual flip!
+				[_] Temperature
