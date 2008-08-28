@@ -1,0 +1,6 @@
+[submodule "elec"]
+	path = elec
+	url = git://git.petertodd.org/entropy-oscillator.elec.git 
+[submodule "firm"]
+	path = firm
+	url = git://git.petertodd.org/entropy-oscillator.firm.git
